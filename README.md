@@ -1,7 +1,14 @@
-# Vue 3 + Vite
+# sample-vue-component-npm-package-use
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## このリポジトリについて
 
-## Recommended IDE Setup
+このリポジトリは、npmパッケージとして公開したVueコンポーネントを利用したサンプルコードである。
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+## npmパッケージとして公開したVueコンポーネントの利用手順
+
+1. 対象npmパッケージをインストール
+1. 対象npmパッケージ内のVueコンポーネントをimport
+   * 以下のようにしてimportする。
+     ```javascript
+     import { MyComponent } from '{npm-package}'
+     ```
